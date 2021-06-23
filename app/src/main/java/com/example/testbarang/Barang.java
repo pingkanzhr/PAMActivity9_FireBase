@@ -13,7 +13,7 @@ public class Barang implements Serializable {
         return kode;
     }
 
-    public void setKode(){
+    public void setKode(String key){
         this.kode = kode;
     }
 
