@@ -42,7 +42,7 @@ public class TambahData extends AppCompatActivity {
             public void onClick(View v) {
                 if (!(etKode.getText().toString().isEmpty()) && ! (etNama.getText().toString().isEmpty()))
                 {
-                    submitBrg(new  Barang(etKode.getText().toString(), etNama.getText().toString()));
+                    submitBrg(new Barang(etKode.getText().toString(), etNama.getText().toString()));
                 }
                 else
                 {
